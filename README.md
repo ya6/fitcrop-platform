@@ -37,3 +37,32 @@ flowchart LR
     Desktop -->|Local FS| Output[(User Disk Storage)]
     User --> Web[FitCropEdit - Web Studio]
     Output -.->|Workflow & Future Bridge| Web
+```
+
+### Core Engineering Principles
+- **Zero-Telemetry Privacy:** Prompts, seeds, workflows, and generated images never leave the user's machine.
+- **Software Tool Neutrality:** Users voluntarily select, review, and run third-party open-weight models on their own hardware.
+- **Cross-Platform Efficiency:** Lightweight native Rust/WebView shell via Tauri instead of heavy browser-bundled runtimes.
+
+---
+
+## Quick Navigation
+
+| Resource | Description | Link |
+| :--- | :--- | :--- |
+| **Bug Reports** | Found an issue in FitCrop AI or FitCropEdit? | [Open an Issue](https://github.com/ya6/fitcrop-platform/issues/new/choose) |
+| **Community & Prompts** | Share prompts, GPU benchmarks, and ideas | [Join Discussions](https://github.com/ya6/fitcrop-platform/discussions) |
+| **Web Studio** | Launch the browser-based image editor | [fitcropedit.com](https://fitcropedit.com/) |
+| **Releases** | Installers & SHA-256 checksums *(coming soon)* | [View Releases](https://github.com/ya6/fitcrop-platform/releases) |
+
+---
+
+## Feedback & Support
+
+If you encounter a crash, GPU/VRAM issue, or unexpected behavior:
+1. Check [Discussions](https://github.com/ya6/fitcrop-platform/discussions) for known hardware tips or model settings.
+2. Submit a structured [Bug Report](https://github.com/ya6/fitcrop-platform/issues/new/choose) with your OS, GPU/VRAM specs, model name, and error output.
+
+---
+
+*Note: FitCrop AI and FitCropEdit are proprietary products. This repository hosts public documentation, release artifacts, and community feedback.*
