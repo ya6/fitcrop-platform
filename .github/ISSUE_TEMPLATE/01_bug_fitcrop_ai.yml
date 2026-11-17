@@ -1,0 +1,91 @@
+name: "Bug Report: FitCrop AI (Desktop)"
+description: Report a crash, installation issue, GPU/VRAM error, or UI bug in the desktop app
+title: "[Desktop Bug]: "
+labels: ["bug", "fitcrop-ai"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for helping improve **FitCrop AI**! Please provide accurate hardware and model details so we can reproduce the issue quickly.
+
+  - type: input
+    id: app-version
+    attributes:
+      label: App Version
+      description: Version of FitCrop AI (found in Help / About)
+      placeholder: "e.g., v1.0.0"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: os
+    attributes:
+      label: Operating System
+      options:
+        - Windows 11
+        - Windows 10
+        - macOS (Apple Silicon M1/M2/M3/M4)
+        - macOS (Intel)
+        - Linux (AppImage / deb / Other)
+    validations:
+      required: true
+
+  - type: input
+    id: gpu-vram
+    attributes:
+      label: GPU & VRAM / System RAM
+      description: Specify your graphics card, VRAM size, and total system RAM
+      placeholder: "e.g., NVIDIA RTX 3060 (12GB VRAM), 32GB RAM"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: backend
+    attributes:
+      label: Compute Backend (SD.cpp Engine)
+      options:
+        - CUDA (NVIDIA)
+        - Vulkan
+        - Metal (macOS)
+        - CPU only
+        - Not sure / Failed during setup
+    validations:
+      required: true
+
+  - type: input
+    id: model
+    attributes:
+      label: AI Model / Package Used
+      description: Which model, VAE, or package were you downloading or running?
+      placeholder: "e.g., SDXL 1.0 / Flux / SD 1.5"
+    validations:
+      required: false
+
+  - type: textarea
+    id: description
+    attributes:
+      label: What happened?
+      description: Clear and concise description of the bug.
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: How can we trigger this behavior?
+      value: |
+        1. Go to '...'
+        2. Click on '...'
+        3. See error
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Error message or Diagnostic Logs
+      description: Paste any error text or log output (please remove any personal file paths or private prompts if needed).
+      render: shell
+    validations:
+      required: false
