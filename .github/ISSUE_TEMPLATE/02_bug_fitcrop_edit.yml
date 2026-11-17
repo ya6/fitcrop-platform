@@ -1,0 +1,74 @@
+name: "Bug Report: FitCropEdit (Web Studio)"
+description: Report a UI glitch, canvas/export issue, or browser bug on fitcropedit.com
+title: "[Web Editor Bug]: "
+labels: ["bug", "fitcrop-edit"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for reporting an issue with **FitCropEdit** (`https://fitcropedit.com/`). Browser and file details below help us track down canvas and rendering bugs quickly.
+
+  - type: dropdown
+    id: browser
+    attributes:
+      label: Browser
+      options:
+        - Google Chrome
+        - Microsoft Edge
+        - Safari
+        - Mozilla Firefox
+        - Brave / Arc / Other Chromium
+        - Mobile Browser
+    validations:
+      required: true
+
+  - type: dropdown
+    id: os
+    attributes:
+      label: Operating System / Device
+      options:
+        - Windows
+        - macOS
+        - Linux
+        - iOS / iPadOS
+        - Android
+    validations:
+      required: true
+
+  - type: input
+    id: file-details
+    attributes:
+      label: Image Format & Approximate Size (if applicable)
+      description: Did the issue happen with a specific file type or large resolution?
+      placeholder: "e.g., PNG, 4096x4096, ~18 MB"
+    validations:
+      required: false
+
+  - type: textarea
+    id: description
+    attributes:
+      label: What happened?
+      description: Describe the bug clearly. You can drag and drop screenshots directly into this box.
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: How can we trigger this behavior?
+      value: |
+        1. Open fitcropedit.com
+        2. Upload/create an image and click '...'
+        3. See error
+    validations:
+      required: true
+
+  - type: textarea
+    id: console-errors
+    attributes:
+      label: Browser Console Errors (Optional)
+      description: Press F12 -> Console tab and paste any red error messages if available.
+      render: shell
+    validations:
+      required: false
