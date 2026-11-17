@@ -1,7 +1,7 @@
 blank_issues_enabled: false
 contact_links:
   - name: "💬 Prompts, Hardware Tips & Q&A"
-    url: https://github.com/YOUR_USERNAME/fitcrop-platform/discussions
+    url: https://github.com/ya6/fitcrop-platform/discussions
     about: Ask questions, share prompts, or discuss GPU performance in GitHub Discussions.
   - name: "🎨 Open FitCropEdit Web Studio"
     url: https://fitcropedit.com/
