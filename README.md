@@ -50,8 +50,12 @@ flowchart LR
 
 | Resource | Description | Link |
 | :--- | :--- | :--- |
-| **Bug Reports** | Found an issue in FitCrop AI or FitCropEdit? | [Open an Issue](https://github.com/ya6/fitcrop-platform/issues/new/choose) |
+| **Report Desktop Bug** | Issues with FitCrop AI (GPU, VRAM, crashes, UI) | [Open FitCrop AI Bug Form](https://github.com/ya6/fitcrop-platform/issues/new?template=01_bug_fitcrop_ai.yml) |
+| **Report Web Bug** | Issues with FitCropEdit (browser, canvas, export) | [Open FitCropEdit Bug Form](https://github.com/ya6/fitcrop-platform/issues/new?template=02_bug_fitcrop_edit.yml) |
 | **Community & Prompts** | Share prompts, GPU benchmarks, and ideas | [Join Discussions](https://github.com/ya6/fitcrop-platform/discussions) |
+| **Roadmap** | Current milestones and upcoming integration | [View ROADMAP.md](./ROADMAP.md) |
+| **System Architecture** | High-level design & engineering decisions | [Read Architecture Overview](./docs/architecture/system-overview.md) |
+| **Hardware & GPU Guide** | VRAM tiers, CUDA/Vulkan/Metal setup tips | [Read Hardware Guide](./docs/fitcrop-ai/hardware-and-gpu.md) |
 | **Web Studio** | Launch the browser-based image editor | [fitcropedit.com](https://fitcropedit.com/) |
 | **Releases** | Installers & SHA-256 checksums *(coming soon)* | [View Releases](https://github.com/ya6/fitcrop-platform/releases) |
 
@@ -60,8 +64,8 @@ flowchart LR
 ## Feedback & Support
 
 If you encounter a crash, GPU/VRAM issue, or unexpected behavior:
-1. Check [Discussions](https://github.com/ya6/fitcrop-platform/discussions) for known hardware tips or model settings.
-2. Submit a structured [Bug Report](https://github.com/ya6/fitcrop-platform/issues/new/choose) with your OS, GPU/VRAM specs, model name, and error output.
+1. Check [Discussions](https://github.com/ya6/fitcrop-platform/discussions) or the [Hardware Guide](./docs/fitcrop-ai/hardware-and-gpu.md) for known tips.
+2. Submit a structured bug report using the dedicated links in the table above.
 
 ---
 
