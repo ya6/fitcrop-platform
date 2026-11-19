@@ -15,11 +15,11 @@ Welcome to the official documentation, architecture, and community hub for the *
 
 **[FitCropEdit](https://fitcropedit.com/)** is a fast, lightweight browser-based image editor designed for creators, designers, and everyday visual workflows — from quick cropping and retouching to preparing assets for web, social media, and print.
 
-<!-- IMAGE SLOT: Upload assets/fitcrop-edit-preview.png and remove comment tags below
+
 <p align="center">
   <img src="./assets/fitcrop-edit-preview.png" alt="FitCropEdit Web Studio Preview" width="850" />
 </p>
--->
+
 
 ### Key Entry Points
 - 🎨 **Launch Web Studio:** [fitcropedit.com](https://fitcropedit.com/)
@@ -34,11 +34,11 @@ Welcome to the official documentation, architecture, and community hub for the *
 
 Today, it runs independently on your machine for offline image generation with zero cloud costs or telemetry. Under the hood, it also runs an **embedded local server** designed to evolve into a **Local API Companion** — allowing **FitCropEdit** in your browser to tap directly into your own GPU for generation, variations, and finishing workflows without uploading private assets to external AI clouds.
 
-<!-- IMAGE SLOT: Upload assets/fitcrop-ai-preview.png and remove comment tags below
+
 <p align="center">
   <img src="./assets/fitcrop-ai-preview.png" alt="FitCrop AI Desktop App Preview" width="850" />
 </p>
--->
+
 
 ### Key Entry Points
 - 📚 **FitCrop AI Docs Hub:** [Engine, Models, Quantization & Prompting](./docs/fitcrop-ai/)
