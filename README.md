@@ -23,7 +23,7 @@ Welcome to the official documentation, architecture, and community hub for the *
 
 ### Key Entry Points
 - 🎨 **Launch Web Studio:** [fitcropedit.com](https://fitcropedit.com/)
-- 📐 **Workflow & Guides:** [FitCropEdit Documentation](./docs/fitcrop-edit/) *(workflows & AI-to-design guides — coming soon)*
+- 📐 **Workflow & Guides:** [FitCropEdit Documentation](./docs/fitcrop-edit/)
 - 🗓️ **Upcoming Features:** [Ecosystem Roadmap](./ROADMAP.md)
 
 ---
